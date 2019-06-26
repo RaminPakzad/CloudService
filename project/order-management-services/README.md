@@ -1,2 +1,2 @@
 # CloudService
-A full cloud ecommerce application with Spring Cloud 
+A full cloud e-commerce application with Spring Cloud 
