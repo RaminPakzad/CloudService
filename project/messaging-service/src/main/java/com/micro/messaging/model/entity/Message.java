@@ -1,4 +1,4 @@
-package com.micro.order.model.entity;
+package com.micro.messaging.model.entity;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Order {
+public class Message {
 
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
