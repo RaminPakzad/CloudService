@@ -1,5 +1,6 @@
 package com.micro.customers.controller;
 
+import com.micro.customers.configs.CustomerProperties;
 import com.micro.customers.model.Customer;
 import com.micro.customers.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,13 +16,23 @@ import java.util.Optional;
  * @author Ramin Pakzad
  */
 @RestController
+//@RefreshScope
 public class CustomerController {
     private final CustomerService customerService;
+//    @Value("${customer.test: not found}")
+//    private String test;
+
+    @Autowired
+    private CustomerProperties customerProperties;
 
     public CustomerController(CustomerService customerService) {
         this.customerService = customerService;
     }
 
+    @GetMapping("/testServer")
+    public String testServer() {
+        return customerProperties.getTest();
+    }
 
     @GetMapping("/customers")
     public List<Customer> getAllStudents() {
