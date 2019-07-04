@@ -7,6 +7,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/project/order-management-services/pom.xml" />
+        <option value="$PROJECT_DIR$/project/product-management-services/pom.xml" />
+        <option value="$PROJECT_DIR$/project/customer-management-services/pom.xml" />
+        <option value="$PROJECT_DIR$/project/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/project/messaging-service/pom.xml" />
       </list>
     </option>

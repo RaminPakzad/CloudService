@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/project/config-server/config-server.iml" filepath="$PROJECT_DIR$/project/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/customer-management-services/customers.iml" filepath="$PROJECT_DIR$/project/customer-management-services/customers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/messaging-service/messaging.iml" filepath="$PROJECT_DIR$/project/messaging-service/messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/project/messaging-service/messaging.iml" filepath="$PROJECT_DIR$/project/messaging-service/messaging.iml" />
       <module fileurl="file://$PROJECT_DIR$/project/order-management-services/order.iml" filepath="$PROJECT_DIR$/project/order-management-services/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/order-management-services/order.iml" filepath="$PROJECT_DIR$/project/order-management-services/order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project/product-management-services/products.iml" filepath="$PROJECT_DIR$/project/product-management-services/products.iml" />
     </modules>
   </component>
 </project>

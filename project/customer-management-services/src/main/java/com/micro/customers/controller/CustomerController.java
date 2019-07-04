@@ -19,8 +19,6 @@ import java.util.Optional;
 //@RefreshScope
 public class CustomerController {
     private final CustomerService customerService;
-//    @Value("${customer.test: not found}")
-//    private String test;
 
     @Autowired
     private CustomerProperties customerProperties;
